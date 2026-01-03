@@ -6,17 +6,16 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 
 > [!TIP]
 >
-> Voici quelques informations relatives à la séance et son déroulement.
+> Voici quelques informations relatives à ce document.
 >
 > **Ressources annexes**
 >
-> - Autres formats du support de cours : [Présentation (web)](TODO) ·
->   [Présentation (PDF)](TODO)
+> - Autres formats : [Présentation (web)](TODO) · [Présentation (PDF)](TODO)
 > - Quiz : [Web](TODO) · [PDF](TODO)
 >
 > **Objectifs**
 >
-> À l'issue de cette séance, les personnes qui étudient devraient être capables
+> À l'issue de ce document, les personnes qui étudient devraient être capables
 > de :
 >
 > - TODO
@@ -32,7 +31,7 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 >
 > **Méthodes d'évaluation**
 >
-> L'évaluation prend la forme d'un quiz qui aura lieu au cours suivant.
+> L'évaluation prend la forme d'un quiz.
 >
 > L'évaluation se fait en utilisant les critères suivants :
 >
@@ -49,18 +48,10 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 
 - [Table des matières](#table-des-matières)
 - [Objectifs](#objectifs)
-- [](#)
 
 ## Objectifs
 
-##
-
-<!-- Footnotes -->
-
-[^agricole]:
-    Le secteur économique de l'agriculture,
-    [.admin.ch](https://www.eda.admin.ch/aboutswitzerland/fr/home/wirtschaft/taetigkeitsgebiete/landwirtschaft.html),
-    26 février 2025
+GitHub Pages -> Switch to GitHub Actions.
 
 <!-- URLs -->
 

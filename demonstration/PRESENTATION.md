@@ -252,7 +252,7 @@ cette présentation.
 
 - [Marp](https://marp.app/) permet de créer des présentations à partir de
   fichiers Markdown.
-- Permet de générer des présentations en HTML, PDF, etc.
+- Permet de générer des présentations en PDF, HTML, etc.
 - Supporte les thèmes personnalisés (polices, couleurs, etc.).
 - La présentation sous vos yeux a été créée avec Marp !
 
@@ -285,10 +285,11 @@ cette présentation.
 
 ### _Development containers_
 
-- [Development containers](https://code.visualstudio.com/docs/devcontainers/containers)
+- Les
+  _"[Development containers](https://code.visualstudio.com/docs/devcontainers/containers)"_
   permettent de définir un environnement de développement dans un conteneur
   [Docker](https://www.docker.com/).
-- Permet d'avoir un environnement de développement cohérent et reproductible.
+- Permet d'avoir un environnement de travail avec tous les bons outils.
 - Utile pour éviter les problèmes de configuration entre différentes machines.
 
 ![bg right:40%][illustration-principale]
@@ -390,9 +391,7 @@ révolutionnaire, mais voici comment je l'utilise.
 - Ne remplace pas la réflexion humaine, mais peut accélérer le processus de
   rédaction.
 - Je guide le contenu, Copilot me propose des suggestions.
-- J'expérimente encore avec les agents.
-
-**Encore en cours d'exploration !**
+- J'expérimente encore pas mal.
 
 ![bg right:40%][illustration-principale]
 
@@ -435,15 +434,16 @@ L'addition est effectuée.
 - **GitHub Actions** pour l'automatisation.
 - **GitHub Copilot** pour l'assistance à la rédaction.
 
-### Structure du dépôt
+### Structure du dépôt et workflow de travail
 
 - Une organisation GitHub par cours.
 - Arborescence simple et claire.
 - Fichiers Markdown pour les supports de cours et les présentations.
 - Fichiers PlantUML pour les diagrammes.
-- Fichiers de configuration pour GitHub Actions.
-- Utilisation des Issues/PRs/Discussions pour la collaboration.
-- Publication automatique avec GitHub Pages.
+- Utilisation des Issues/PRs/Discussions pour la collaboration entre les
+  enseignant.es et avec/pour les étudiant.es.
+- Je commence toujours par le support de cours, puis je crée la présentation à
+  partir de celui-ci.
 
 ### Conclusion personnelle (1)
 
@@ -459,29 +459,22 @@ L'addition est effectuée.
 
 - GitHub Actions et GitHub Pages me permettent d'avoir accès à mes cours en tout
   temps, n'importe où.
-- Plusieurs personnes impliquées dans le processus de réflexion et la mise en
-  place (H. Louis, V. Guidoux, M. Ançay). Je ne suis pas arrivé à ça tout seul.
-- Après avoir créé 5 cours à partir de 0 en 2.5 ans, je suis convaincu par cette
-  approche.
+- Cette approche permet à tout le monde de pouvoir apprendre à son rythme et
+  selon ses besoins, même lors d'absences.
+- Les retours des étudiant.es sont (extrêmement) positifs.
 
 ![bg right:37%][illustration-principale]
 
 ### Conclusion personnelle (3)
 
-- Cette approche permet à tout le monde de pouvoir apprendre à son rythme et
-  selon ses besoins, même lors d'absences.
-- Les retours des étudiant.es sont (extrêmement) positifs.
-- Par contre, le retour sur investissements est assez catastrophique pour le
-  moment. 😅 Mais maintenant que c'est là, 💯.
+- La simplicité des outils me force à rester simple et bien structurer le
+  contenu.
+- Après avoir créé 5 cours à partir de 0 en 2.5 ans, je suis convaincu par cette
+  approche.
+- Plusieurs personnes impliquées dans le processus de réflexion et la mise en
+  place (H. Louis, V. Guidoux, M. Ançay). Je ne suis pas arrivé à ça tout seul.
 
 ![bg right:37%][illustration-principale]
-
-### Conclusion personnelle (4)
-
-<!-- _class: lead -->
-
-**La simplicité des outils me force à rester simple et bien structurer le
-contenu.**
 
 ### Perspectives d'avenir
 
@@ -494,18 +487,20 @@ contenu.**
 - Partager et accompagner d'autres enseignant·es dans l'adoption de cette
   approche.
 
+### Retrouvez le guide dans le document complet
+
+<!-- _class: lead -->
+
+Un guide détaillé est disponible dans [le document complet][support-de-cours]
+pour vous aider à adopter cette approche dans vos propres cours.
+
+![bg right w:75%][support-de-cours-qr-code]
+
 ## Questions
 
 <!-- _class: lead -->
 
 Merci de votre attention ! Est-ce que vous avez des questions ?
-
-<small>
-
-Retrouvez cette présentation et le document complet publiquement sur GitHub :
-<https://github.com/ludelafo/teaching-tools-demonstration>
-
-</small>
 
 ## Diapositives supplémentaires
 
@@ -521,6 +516,17 @@ présentés dans cette présentation (à différents degrés de maturité) :
 - [Programmation serveur 2 (ProgServ2)](https://github.com/heig-vd-progserv-course/heig-vd-progserv2-course).
 - [Lancez votre minimum viable product (MVP)](https://github.com/heig-vd-mvp-course/heig-vd-mvp-course).
 - [Développement de produits médias (DévProdMéd)](https://github.com/heig-vd-devprodmed-course/heig-vd-devprodmed-course).
+
+### Structure de mes cours
+
+- Présentations orales courtes (j'essaie de viser 20 minutes, mais plutôt 30-40
+  minutes).
+- Redirection des étudiant.es vers le support de cours pour les détails. Permet
+  de renforcer l'apprentissage autonome.
+- Exercices pratiques en classe (individuels ou en groupe), inclus dans le
+  support de cours. Parfois, le support de cours mélange théorie et pratique.
+- Quiz pour évaluer la compréhension des concepts clés.
+- Discussions et retours pour améliorer continuellement le cours.
 
 ### Quiz
 
@@ -545,7 +551,8 @@ TODO
 - [Johnny.Decimal](https://johnnydecimal.com/) - Système de classification pour
   organiser les fichiers et les projets.
 - Je demande régulièrement des retours d'expérience à mes étudiant.es pour
-  améliorer mes cours. Ceux-ci sont disponibles publiquement sur GitHub.
+  améliorer mes cours. Ceux-ci sont disponibles publiquement sur GitHub dans les
+  différents dépôts de cours.
 
 ## Sources
 
@@ -560,6 +567,8 @@ TODO
 
 [support-de-cours]:
 	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md
+[support-de-cours-qr-code]:
+	https://quickchart.io/qr?format=png&ecLevel=Q&size=400&margin=1&text=https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md
 [license]:
 	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/LICENSE.md
 

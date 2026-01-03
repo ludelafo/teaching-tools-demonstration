@@ -8,7 +8,7 @@ Ceci est un second paragraphe avec du _texte en italique_.
 
 Je peux créer des listes à puces (non ordonnées) :
 
-- Liste à puces
+- Premier élément
 - Deuxième élément
 
 Je peux aussi créer des listes numérotées (ordonnées) :
@@ -64,3 +64,13 @@ L'exemple suivant fonctionne sur GitHub :
 > Plus de détails ici (en utilisant une autre manière d'insérer un lien avec
 > Markdown qui ne demande pas de titre) :
 > <https://docs.github.com/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts>
+
+Sur GitHub, il est aussi possible d'insérer des notes de bas de
+page[^note-de-bas-de-page].
+
+[^note-de-bas-de-page]:
+    Ceci est une note de bas de page. Elle fournit des informations
+    supplémentaires sans encombrer le corps principal du texte.
+
+    Il est possible de revenir dans le texte principal en cliquant sur le numéro
+    de la note de bas de page.
