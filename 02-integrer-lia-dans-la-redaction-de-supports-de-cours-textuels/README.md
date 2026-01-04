@@ -1,4 +1,4 @@
-# Démonstration d'outils d'enseignement
+# Démonstration d'outils d'enseignement - Automatiser la création et la maintenance de supports de cours complets à l'aide de simples fichiers textuels
 
 L. Delafontaine, avec l'aide de GitHub Copilot.
 

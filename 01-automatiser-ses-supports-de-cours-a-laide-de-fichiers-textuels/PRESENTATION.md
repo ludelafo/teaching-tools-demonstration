@@ -1,21 +1,22 @@
 ---
 marp: true
----
-
-<!--
 theme: custom-marp-theme
 size: 16:9
 paginate: true
 author: L. Delafontaine, avec l'aide de GitHub Copilot
-title: Démonstration d'outils d'enseignement
-description: Démonstration de certains des outils que j'utilise pour enseigner.
+description:
+  Automatiser la création et la maintenance de supports de cours complets à
+  l'aide de simples fichiers textuels.
 url: TODO
-header: "[**Démonstration d'outils d'enseignement**][support-de-cours]"
-footer: "[**L. Delafontaine**](https://github.com/ludelafo) - [CC BY-SA 4.0](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/LICENSE.md)"
+header:
+  "[**Automatiser ses supports de cours à l'aide de fichiers
+  textuels**][contenu-complet-sur-github]"
+footer:
+  "[**L. Delafontaine**](https://github.com/ludelafo) - [CC BY-SA 4.0][license]"
 headingDivider: 6
--->
+---
 
-# Démonstration d'outils d'enseignement
+# Automatiser ses supports de cours à l'aide de fichiers textuels
 
 <!--
 _class: lead
@@ -24,7 +25,8 @@ _paginate: false
 
 <https://github.com/ludelafo/teaching-tools-demonstration>
 
-[Visualiser ce document sur GitHub (version complète).][support-de-cours]
+<!-- Visualiser le contenu complet sur GitHub [à cette
+adresse][contenu-complet-sur-github]. -->
 
 <small>L. Delafontaine, avec l'aide de GitHub Copilot.</small>
 
@@ -32,14 +34,19 @@ _paginate: false
 
 ![bg opacity:0.1][illustration-principale]
 
+<!--
+
 ## Plus de détails sur GitHub
 
-<!-- _class: lead -->
+<!-- _class: lead --
 
-_Cette présentation est un résumé du document complet disponible sur GitHub._
+_Cette présentation est un résumé du contenu complet disponible sur GitHub._
 
-_Pour plus de détails, consulter le [document complet sur
-GitHub][support-de-cours] ou en cliquant sur l'en-tête de ce document._
+_Pour plus de détails, consulter le [contenu complet sur
+GitHub][contenu-complet-sur-github] ou en cliquant sur l'en-tête de ce
+document._
+
+-->
 
 ## Qui suis-je ?
 
@@ -58,20 +65,16 @@ Delafontaine**
 </div>
 <div>
 
-**Parcours**
-
 <small>
+
+**Parcours**
 
 - 2011-2015 : CFC en informatique @ ETML.
 - 2015-2019 : BSc en informatique @ HEIG-VD.
 - 2020-2024 : Collaborateur Ra&D @ HEIG-VD.
 - 2023-2026 : Artios + Chargé de cours @ HEIG-VD.
 
-</small>
-
 **Enseignement**
-
-<small>
 
 - [DAI](https://github.com/heig-vd-dai-course/heig-vd-dai-course) &
   [MVP](https://github.com/heig-vd-mvp-course/heig-vd-mvp-course) @ TIC.
@@ -86,17 +89,6 @@ Delafontaine**
 </div>
 </div>
 
-## Avertissement
-
-- Les outils/aspects techniques présentés sont efficaces pour moi, avec des
-  compétences techniques intermédiaires.
-- Ils ne conviennent pas nécessairement à tout le monde/toutes les situations.
-- Ils sont présentés à titre d'exemple et d'inspiration.
-- Ce que je partage aujourd'hui ne concerne que ma propre expérience et mon
-  opinion personnelle sur ce que je considère comme une bonne expérience
-  d'enseignement.
-- Je n'ai aucune pretention d'exhaustivité ou d'objectivité.
-
 ## Un retour en arrière... (1)
 
 - En 2023, la HEIG-VD m'a proposé d'enseigner mon premier cours universitaire.
@@ -108,29 +100,9 @@ Delafontaine**
   - Diapositives qui contiennent beaucoup (trop) d'informations afin que les
     personnes puissent réviser par eux-mêmes ?
 
-### _Ceci est une diapositive avec trop de texte_
-
-<div class="two-columns">
-<div>
-
-Elle a pour but de **donner tous les détails nécessaires pour comprendre** le
-sujet abordé. Cependant, elle peut être **difficile à lire et à suivre** pour
-les personnes qui assistent à la présentation. De plus, l'information est
-**difficile à structurer** et à organiser de manière claire et concise.
-
-</div>
-<div>
-
-Cela peut entraîner une **surcharge d'informations** pour les personnes qui
-assistent à la présentation, ce qui **peut décourager** de suivre le contenu. Où
-et comment mettre les détails importants ? Les schémas ? Les exemples ? Comment
-garder l'attention ? **La présentation devient le support.**
-
 ### _Ceci est une diapositive avec peu de texte_
 
-Peu d'informations...
-
-Efficace...
+Épurée...
 
 Agréable à regarder (subjectif)...
 
@@ -139,6 +111,39 @@ Mais difficile à comprendre.
 Que retient-on sur le long terme ?
 
 ![bg right:40%][illustration-principale]
+
+### _Ceci est une diapositive avec trop de texte_
+
+<div class="two-columns">
+<div>
+
+<small>
+
+Elle a pour but de **donner tous les détails nécessaires pour comprendre** le
+sujet abordé. Cependant, elle peut être **difficile à lire et à suivre** pour
+les personnes qui assistent à la présentation. De plus, l'information est
+**difficile à structurer** et à organiser de manière claire. Cela peut entraîner
+une **surcharge d'informations** pour les personnes qui assistent à la
+présentation, ce qui **peut décourager** de suivre le contenu.
+
+</small>
+
+</div>
+<div>
+
+<small>
+
+**Où et comment mettre les détails importants ?** Comment présenter des exemples
+de code, des marches à suivre ou encore expérimenter des exercices pratiques ?
+Les schémas ? Les exemples ? **Comment garder l'attention ?** Quel est l'intérêt
+de la présentation **si je dois commencer à lire tout mon contenu ?**
+
+</small>
+
+Bref, **la présentation devient le support**, ce qui n'est pas idéal.
+
+</div>
+</div>
 
 ## Un retour en arrière... (2)
 
@@ -152,7 +157,7 @@ Nouveau défi : comment créer et maintenir (efficacement) deux types de documen
 (présentations et supports de cours) sans doubler le travail ? ➡️ Le cœur de
 cette présentation.
 
-## _Automatiser la création et la maintenance de supports de cours complets à l'aide de simples fichiers textuels : retour d’expérience_
+## Automatiser ses supports de cours à l'aide de fichiers textuels
 
 <!-- _class: lead -->
 
@@ -161,32 +166,45 @@ cette présentation.
 - Présenter les outils que j'utilise pour créer des supports de cours et des
   présentations.
 - Expliquer pourquoi j'ai choisi ces outils.
-- Démontrer comment ces outils s'intègrent pour automatiser la création et la
+- Expliquer comment ces outils s'intègrent pour automatiser la création et la
   maintenance des documents.
 
 ![bg right:40%][illustration-objectifs]
 
 ## Objectifs (2)
 
-- Partager vos retours d'expérience.
-- Discuter des alternatives possibles.
+- Démontrer l'utilisation de ces outils.
+- Présenter quelques diapositives supplémentaires si le temps le permet.
 
-**Sentez-vous libre de poser des questions à tout moment durant la présentation
-!**
+\
+**Sentez-vous libre de poser des questions à tout moment durant la présentation !**
 
 ![bg right:40%][illustration-objectifs]
 
-## Choix des outils pour les supports et les présentations
+## Avertissement
+
+- Les outils/aspects techniques présentés sont efficaces pour moi, avec des
+  compétences techniques intermédiaires.
+- Ils ne conviennent pas nécessairement à tout le monde/toutes les situations.
+- Ils sont présentés à titre d'exemple et d'inspiration.
+- Ce que je partage aujourd'hui ne concerne que ma propre expérience et mon
+  opinion personnelle sur ce que je considère comme une bonne expérience
+  d'enseignement.
+- Je n'ai aucune pretention d'exhaustivité ou d'objectivité.
+
+## Choix des outils pour les contenus et les présentations
 
 <!-- _class: lead -->
 
 ### Outils classiques (1)
 
-**Outils à disposition**
+**Large choix d'outils**
 
 - Présentations : PowerPoint, Keynote, Google Slides, etc.
-- Supports de cours : Word, Google Docs, etc.
+- Contenus de cours : Word, Google Docs, etc.
 - Diagrammes : Visio, Draw.io, etc.
+
+Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 
 ![bg right:40%][illustration-principale]
 
@@ -194,11 +212,11 @@ cette présentation.
 
 **Difficultés**
 
-- Formats binaires (`.pptx`, `.docx`, etc.).
-- Difficulté de collaboration (suivi des modifications).
 - Mise en page chronophage.
 - Difficulté d'automatisation (génération de documents avec la même mise en
   page).
+- Difficulté de collaboration (suivi des modifications).
+- Demandent des applications spécifiques (`.pptx`, `.docx`, etc.).
 
 ![bg right:40%][illustration-principale]
 
@@ -208,7 +226,7 @@ cette présentation.
 
 - Simples à lire et à éditer (ce n'est que du texte finalement).
 - La mise en page n'est pas à gérer (documents et diagrammes).
-- Facilité de collaboration et à automatiser.
+- Facilité pour collaborer et automatiser.
 
 ![bg right:40%][illustration-principale]
 
@@ -222,7 +240,7 @@ cette présentation.
 - [LaTeX](https://www.latex-project.org/).
 - [PlantUML](https://plantuml.com/) (diagrammes).
 - [Mermaid](https://mermaid-js.github.io/mermaid/#/) (diagrammes).
-- Et bien plus, voir [Kroki](https://kroki.io/).
+- Et bien plus encore...
 
 ![bg right:40%][illustration-principale]
 
@@ -246,12 +264,12 @@ cette présentation.
 - Sa syntaxe est, elle aussi, simple ([voir l'exemple](TODO)).
 - Facilement convertible en différents formats (PNG, SVG, etc.).
 
-![bg right:40% w:90%](./exemples/diagramme-plantuml.svg)
+![bg right:40%][illustration-principale]
 
 ### Marp (1)
 
 - [Marp](https://marp.app/) permet de créer des présentations à partir de
-  fichiers Markdown.
+  fichiers Markdown ([voir l'exemple](TODO)).
 - Permet de générer des présentations en PDF, HTML, etc.
 - Supporte les thèmes personnalisés (polices, couleurs, etc.).
 - La présentation sous vos yeux a été créée avec Marp !
@@ -263,8 +281,7 @@ cette présentation.
 - Je n'ai pas besoin de me préoccuper de la mise en page.
 - Je n'ai qu'à me concentrer sur le contenu.
 - Mes besoins sont simples : un titre, du texte, une image illustrative, etc.
-- Possibilité d'ajouter des en-têtes/pieds de page, quelques mises en forme
-  particulières, etc.
+- Pas forcément adapté à tous les usages.
 
 ![bg right:40%][illustration-principale]
 
@@ -286,11 +303,12 @@ cette présentation.
 ### _Development containers_
 
 - Les
-  _"[Development containers](https://code.visualstudio.com/docs/devcontainers/containers)"_
+  _"[Devcontainers](https://code.visualstudio.com/docs/devcontainers/containers)"_
   permettent de définir un environnement de développement dans un conteneur
   [Docker](https://www.docker.com/).
-- Permet d'avoir un environnement de travail avec tous les bons outils.
-- Utile pour éviter les problèmes de configuration entre différentes machines.
+- Permet d'avoir un environnement de travail avec tous les bons outils avec les
+  bonnes configurations.
+- Permet d'être efficace rapidement.
 
 ![bg right:40%][illustration-principale]
 
@@ -312,22 +330,13 @@ cette présentation.
 
 <!-- _class: lead -->
 
-### Git
-
-- [Git](https://git-scm.com/) est un système de gestion de versions.
-- Permet de suivre les modifications apportées aux fichiers.
-- Permet de collaborer efficacement sur des projets.
-- Utilisé quotidiennement dans le domaine informatique.
-
-![bg right:40%][illustration-principale]
-
 ### GitHub
 
-- [GitHub](https://github.com/) est une plateforme de gestion de code source.
-- Construite autour de Git.
-- Permet d'héberger des dépôts Git.
-- Espace de travail et de discussions en ligne.
-- Permet de collaborer facilement entre plusieurs personnes.
+- [GitHub](https://github.com/) est une plateforme de gestion de code source en
+  ligne.
+- Construite autour de [Git](https://git-scm.com/), ce qui facilite le suivi des
+  modifications.
+- Espace de travail, de collaboration et de discussions à plusieurs.
 - Exemples : [Issues](TODO), [PRs](TODO), [Discussions](TODO).
 
 ![bg right:40%][illustration-principale]
@@ -352,46 +361,7 @@ cette présentation.
   tâches dans un dépôt GitHub.
 - Permet de générer automatiquement des documents à partir de fichiers source
   (Markdown, PlantUML, etc.).
-- Aussi décrit dans un fichier texte (voir l'[exemple](TODO)).
-
-![bg right:40%][illustration-principale]
-
-## Intégration avec l'intelligence artificielle
-
-<!-- _class: lead -->
-
-Mon utilisation de l'intelligence artificielle n'est pas extrêmement poussée ni
-révolutionnaire, mais voici comment je l'utilise.
-
-### GitHub Copilot (1)
-
-- [GitHub Copilot](https://github.com/features/copilot) est un assistant de
-  programmation basé sur l'intelligence artificielle.
-- Aide à écrire du code plus rapidement en suggérant des lignes ou des blocs de
-  code.
-- Intégré dans Visual Studio Code et d'autres environnements de développement.
-
-![bg right:40%][illustration-principale]
-
-### GitHub Copilot (2)
-
-- Au travers de la HEIG-VD, l'accès à GitHub Copilot est offert.
-- Plusieurs modèles disponibles gratuitement (j'utilise souvent Claude Sonnet
-  4.5).
-- Comme tous les documents sont des fichiers textuels, il n'y a aucune
-  difficulté à les comprendre et les mettre à jour (pas de mise en page à gérer
-  !).
-
-![bg right:40%][illustration-principale]
-
-### GitHub Copilot (3)
-
-- Utile pour générer des contenus, des exemples de code, des structures de
-  fichiers, etc.
-- Ne remplace pas la réflexion humaine, mais peut accélérer le processus de
-  rédaction.
-- Je guide le contenu, Copilot me propose des suggestions.
-- J'expérimente encore pas mal.
+- Aussi décrit dans un fichier texte ([voir l'exemple](TODO)).
 
 ![bg right:40%][illustration-principale]
 
@@ -399,25 +369,7 @@ révolutionnaire, mais voici comment je l'utilise.
 
 <!-- _class: lead -->
 
-Les diapositives qui suivent contiennent des erreurs pour illustrer
-l'utilisation de la suite d'outils présentée.
-
-### Fonctions en JavaScript
-
-Une fonction qui additionne deux nombres a trois paramètres :
-
-1. Le premier chiffre.
-2. Le deuxième nombre.
-
-```
-function addition(a, b) {
-	return a - b;
-}
-```
-
-L'addition est effectuée.
-
-![bg right:40%][illustration-principale]
+La démonstration est basée sur l'exemple disponible ici : <TODO>.
 
 ## Conclusion
 
@@ -432,7 +384,6 @@ L'addition est effectuée.
 - **Git**, **GitHub** et **GitHub Pages** pour la collaboration et la
   publication.
 - **GitHub Actions** pour l'automatisation.
-- **GitHub Copilot** pour l'assistance à la rédaction.
 
 ### Structure du dépôt et workflow de travail
 
@@ -453,7 +404,7 @@ L'addition est effectuée.
 - Ne pas devoir faire attention à la mise en page réduit considérablement le
   temps de création et de maintenance des documents.
 
-![bg right:37%][illustration-principale]
+![bg right:34%][illustration-principale]
 
 ### Conclusion personnelle (2)
 
@@ -463,7 +414,7 @@ L'addition est effectuée.
   selon ses besoins, même lors d'absences.
 - Les retours des étudiant.es sont (extrêmement) positifs.
 
-![bg right:37%][illustration-principale]
+![bg right:34%][illustration-principale]
 
 ### Conclusion personnelle (3)
 
@@ -474,27 +425,31 @@ L'addition est effectuée.
 - Plusieurs personnes impliquées dans le processus de réflexion et la mise en
   place (H. Louis, V. Guidoux, M. Ançay). Je ne suis pas arrivé à ça tout seul.
 
-![bg right:37%][illustration-principale]
+![bg right:34%][illustration-principale]
 
 ### Perspectives d'avenir
 
-- Explorer davantage les capacités de GitHub Copilot avec les agents
-  d'intelligence artificielle :
-  - Pouvoir donner des templates sur lesquels s'appuyer.
-  - Demander à générer un contenu spécifique complet (support de cours,
-    présentation, diagrammes, etc.).
-  - Automatiser encore plus la création et la maintenance des documents.
+- Rédiger un guide complet pour aider d'autres enseignant·es à adopter cette
+  approche.
 - Partager et accompagner d'autres enseignant·es dans l'adoption de cette
   approche.
 
-### Retrouvez le guide dans le document complet
+### Aller plus loin : _"Intégrer l'IA dans la rédaction de supports de cours textuels"_
 
 <!-- _class: lead -->
 
-Un guide détaillé est disponible dans [le document complet][support-de-cours]
+Un contenu dédié à ce sujet est disponible ici : <TODO>.
+
+<!--
+### Retrouvez le guide dans le document complet
+
+<!-- _class: lead --
+
+Un guide détaillé est disponible dans [le document complet][contenu-complet-sur-github]
 pour vous aider à adopter cette approche dans vos propres cours.
 
-![bg right w:75%][support-de-cours-qr-code]
+![bg right w:75%][contenu-complet-sur-github-qr-code]
+-->
 
 ## Questions
 
@@ -527,10 +482,6 @@ présentés dans cette présentation (à différents degrés de maturité) :
   support de cours. Parfois, le support de cours mélange théorie et pratique.
 - Quiz pour évaluer la compréhension des concepts clés.
 - Discussions et retours pour améliorer continuellement le cours.
-
-### Quiz
-
-TODO
 
 ### Outils supplémentaires non présentés
 
@@ -565,10 +516,12 @@ TODO
 
 <!-- URLs -->
 
-[support-de-cours]:
+[contenu-complet-sur-github]:
 	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md
-[support-de-cours-qr-code]:
-	https://quickchart.io/qr?format=png&ecLevel=Q&size=400&margin=1&text=https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md
+
+<!-- [contenu-complet-sur-github-qr-code]:
+	https://quickchart.io/qr?format=png&ecLevel=Q&size=400&margin=1&text=https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md -->
+
 [license]:
 	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/LICENSE.md
 
