@@ -6,7 +6,7 @@ paginate: true
 author: L. Delafontaine, avec l'aide de GitHub Copilot
 description:
   Intégrer l'intelligence artificielle dans la rédaction de contenus de cours
-  complets textuels
+  rédigés avec des fichiers textuels complets textuels
 url: https://ludelafo.github.io/teaching-tools-demonstration/02-integrer-lia-dans-la-redaction-de-contenus-de-cours-textuels/presentation.html
 header:
   "[**Intégrer l'IA dans la rédaction de contenus de cours

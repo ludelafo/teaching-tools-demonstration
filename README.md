@@ -8,4 +8,4 @@ moment):
    l'aide de simples fichiers textuels.
 2. [Intégrer l'IA dans la rédaction de contenus de cours textuels](./02-integrer-lia-dans-la-redaction-de-contenus-de-cours-textuels/README.md) -
    Intégrer l'intelligence artificielle dans la rédaction de contenus de cours
-   complets textuels.
+   rédigés avec des fichiers textuels.
