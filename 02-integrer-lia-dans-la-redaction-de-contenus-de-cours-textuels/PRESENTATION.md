@@ -170,9 +170,9 @@ résultats (base de l'IA).
 
 - [GitHub Copilot](https://github.com/features/copilot) est un assistant de
   programmation basé sur l'intelligence artificielle.
-- Aide à écrire du code plus rapidement en suggérant des lignes ou des blocs de
-  code.
-- Intégré dans Visual Studio Code et d'autres environnements de développement.
+- A ne pas confondre avec Microsoft 365 Copilot !
+- Suggère des lignes ou des blocs de code.
+- Intégré dans Visual Studio Code et d'autres outils.
 
 ![bg right:40%][illustration-principale]
 

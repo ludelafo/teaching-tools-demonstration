@@ -1,4 +1,4 @@
-# Teaching tools demonstration
+# Teaching Tools Demonstration
 
 Demonstration of some of the tools I use for teaching (French only at the
 moment):
