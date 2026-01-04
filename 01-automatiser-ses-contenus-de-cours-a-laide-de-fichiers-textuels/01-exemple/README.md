@@ -23,6 +23,10 @@ Je peux insérer des images :
 
 ![Logo GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
+Ou encore des images locales :
+
+![Diagramme PlantUML](images/diagramme-plantuml.svg)
+
 Je peux insérer des blocs de code :
 
 ```java

@@ -5,18 +5,18 @@ size: 16:9
 paginate: true
 author: L. Delafontaine, avec l'aide de GitHub Copilot
 description:
-  Automatiser la création et la maintenance de supports de cours complets à
+  Automatiser la création et la maintenance de contenus de cours complets à
   l'aide de simples fichiers textuels.
-url: TODO
+url: https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/presentation.html
 header:
-  "[**Automatiser ses supports de cours à l'aide de fichiers
+  "[**Automatiser ses contenus de cours à l'aide de fichiers
   textuels**][contenu-complet-sur-github]"
 footer:
   "[**L. Delafontaine**](https://github.com/ludelafo) - [CC BY-SA 4.0][license]"
 headingDivider: 6
 ---
 
-# Automatiser ses supports de cours à l'aide de fichiers textuels
+# Automatiser ses contenus de cours à l'aide de fichiers textuels
 
 <!--
 _class: lead
@@ -157,13 +157,13 @@ Nouveau défi : comment créer et maintenir (efficacement) deux types de documen
 (présentations et supports de cours) sans doubler le travail ? ➡️ Le cœur de
 cette présentation.
 
-## Automatiser ses supports de cours à l'aide de fichiers textuels
+## Automatiser ses contenus de cours à l'aide de fichiers textuels
 
 <!-- _class: lead -->
 
 ## Objectifs (1)
 
-- Présenter les outils que j'utilise pour créer des supports de cours et des
+- Présenter les outils que j'utilise pour créer des contenus de cours et des
   présentations.
 - Expliquer pourquoi j'ai choisi ces outils.
 - Expliquer comment ces outils s'intègrent pour automatiser la création et la
@@ -248,7 +248,8 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 
 - [Markdown](https://www.markdownguide.org/) permet de créer des documents
   structurés.
-- Syntaxe simple ([voir l'exemple](TODO)).
+- Syntaxe simple
+  ([voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-exemple/README.md)).
 - Peut être utilisé pour générer différents types de documents (supports et
   présentations).
 - Des extensions existent pour ajouter des fonctionnalités supplémentaires.
@@ -261,7 +262,8 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
   diagrammes (séquence, classes, etc.).
 - Principalement pour le domaine informatique mais extensible à d'autres
   domaines.
-- Sa syntaxe est, elle aussi, simple ([voir l'exemple](TODO)).
+- Sa syntaxe est, elle aussi, simple
+  ([voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-exemple/images/diagramme-plantuml.plantuml)).
 - Facilement convertible en différents formats (PNG, SVG, etc.).
 
 ![bg right:40%][illustration-principale]
@@ -269,7 +271,8 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 ### Marp (1)
 
 - [Marp](https://marp.app/) permet de créer des présentations à partir de
-  fichiers Markdown ([voir l'exemple](TODO)).
+  fichiers Markdown
+  ([voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-exemple/PRESENTATION.md)).
 - Permet de générer des présentations en PDF, HTML, etc.
 - Supporte les thèmes personnalisés (polices, couleurs, etc.).
 - La présentation sous vos yeux a été créée avec Marp !
@@ -322,7 +325,7 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 - [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
   : permet de créer des présentations Marp.
 - Liste complète dans le
-  [fichier de configuration du conteneur de développement](TODO).
+  [fichier de configuration du conteneur de développement](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/.devcontainer/devcontainer.json).
 
 ![bg right:40%][illustration-principale]
 
@@ -337,7 +340,10 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 - Construite autour de [Git](https://git-scm.com/), ce qui facilite le suivi des
   modifications.
 - Espace de travail, de collaboration et de discussions à plusieurs.
-- Exemples : [Issues](TODO), [PRs](TODO), [Discussions](TODO).
+- Exemples :
+  [Issues](https://github.com/heig-vd-dai-course/heig-vd-dai-course/issues),
+  [PRs](https://github.com/heig-vd-dai-course/heig-vd-dai-course/pulls),
+  [Discussions](https://github.com/orgs/heig-vd-dai-course/discussions).
 
 ![bg right:40%][illustration-principale]
 
@@ -361,7 +367,8 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
   tâches dans un dépôt GitHub.
 - Permet de générer automatiquement des documents à partir de fichiers source
   (Markdown, PlantUML, etc.).
-- Aussi décrit dans un fichier texte ([voir l'exemple](TODO)).
+- Aussi décrit dans un fichier texte
+  ([voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/.github/workflows/main.yml)).
 
 ![bg right:40%][illustration-principale]
 
@@ -369,7 +376,10 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 
 <!-- _class: lead -->
 
-La démonstration est basée sur l'exemple disponible ici : <TODO>.
+_Let's get our hands dirty!_
+
+<small>Il n'est pas impossible que l'effet démo soit présent. Navré pour les
+éventuelles erreurs.</small>
 
 ## Conclusion
 
@@ -434,11 +444,12 @@ La démonstration est basée sur l'exemple disponible ici : <TODO>.
 - Partager et accompagner d'autres enseignant·es dans l'adoption de cette
   approche.
 
-### Aller plus loin : _"Intégrer l'IA dans la rédaction de supports de cours textuels"_
+### Aller plus loin : _"Intégrer l'IA dans la rédaction de contenus de cours textuels"_
 
 <!-- _class: lead -->
 
-Un contenu dédié à ce sujet est disponible ici : <TODO>.
+Visualiser le contenu complet sur GitHub
+[à cette adresse](https://github.com/ludelafo/teaching-tools-demonstration/tree/main/02-integrer-lia-dans-la-redaction-de-contenus-de-cours-textuels).
 
 <!--
 ### Retrouvez le guide dans le document complet
@@ -486,7 +497,7 @@ présentés dans cette présentation (à différents degrés de maturité) :
 ### Outils supplémentaires non présentés
 
 - [optipng](http://optipng.sourceforge.net/) pour optimiser les images PNG.
-- [jpegoptim](http://jpegoptim.sourceforge.net/) pour optimiser les images JPEG.
+- [jpegoptim](https://github.com/tjko/jpegoptim) pour optimiser les images JPEG.
 - [Pandoc](https://pandoc.org/) pour convertir entre différents formats de
   documents (Markdown, HTML, PDF, etc.).
 - [Kroki](https://kroki.io/) pour générer des diagrammes à partir de différents

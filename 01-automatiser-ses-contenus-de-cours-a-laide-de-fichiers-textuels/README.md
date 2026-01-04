@@ -1,4 +1,4 @@
-# Automatiser ses supports de cours à l'aide de fichiers textuels
+# Automatiser ses contenus de cours à l'aide de fichiers textuels
 
 L. Delafontaine, avec l'aide de GitHub Copilot.
 
@@ -10,13 +10,16 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 >
 > **Ressources annexes**
 >
-> - Autres formats : [Présentation (web)](TODO) · [Présentation (PDF)](TODO)
+> - Autres formats :
+>   [Présentation (web)](https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/presentation.html)
+>   ·
+>   [Présentation (PDF)](https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels-presentation.pdf)
 >
 > **Objectifs**
 >
 > À l'issue de ce contenu, les personnes devraient être capables de :
 >
-> - Présenter des outils pour créer des supports de cours et des présentations.
+> - Présenter des outils pour créer des contenus de cours et des présentations.
 > - Expliquer pourquoi le choix de ces outils.
 > - Expliquer comment ces outils s'intègrent pour automatiser la création et la
 >   maintenance des documents.
@@ -42,7 +45,10 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 ## Contenu à venir
 
 Le contenu complet de ce sujet sera bientôt disponible ici. Pour le moment, vous
-pouvez consulter la présentation associée à l'adresse suivante : <TODO>.
+pouvez consulter la présentation associée à l'adresse suivante :
+[Présentation (web)](https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/presentation.html)
+·
+[Présentation (PDF)](https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels-presentation.pdf).
 
 <!-- URLs -->
 
