@@ -206,6 +206,32 @@ _Let's get our hands dirty!_
 <small>Il n'est pas impossible que l'effet démo soit présent. Navré pour les
 éventuelles erreurs.</small>
 
+### Contenus de la démonstration
+
+<div class="two-columns">
+<div>
+
+1. Présenter Visual Studio Code.
+2. Présenter la structure des fichiers.
+3. Présenter GitHub Copilot.
+4. Présenter le chat intégré.
+5. Rédiger un support de cours textuel.
+6. Générer la présentation à partir du support de cours.
+
+</div>
+<div>
+
+7. Utiliser le fichier
+   [`copilot-instructions.md`](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions-1)
+   pour guider les suggestions globales.
+8. Utiliser le dossier
+   [`instructions`](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-path-specific-custom-instructions-1)
+   pour guider les suggestions sur des fichiers spécifiques.
+9. Générer des diagrammes PlantUML.
+
+</div>
+</div>
+
 ## Conclusion
 
 <!-- _class: lead -->
@@ -225,19 +251,20 @@ _Let's get our hands dirty!_
 - GitHub Copilot n'est pas parfait et nécessite une supervision humaine.
 - Mes expériences de génération de contenus complets avec le chat intégré sont
   mitigées (skill issues?) :
-  - Parfois, les générations sont très pertinentes et m'aident à avancer
-    rapidement.
-  - Parfois, je dois me battre pour obtenir des résultats satisfaisants.
+  - Parfois, les générations sont très pertinentes et permettent un gain.
+  - Parfois, je dois me battre pour obtenir de bons résultats. Plus simple de
+    faire par soi-même.
 
 ![bg right:34%][illustration-principale]
 
 ### Conclusion (3)
 
-- La transformation du support de cours en présentation est très peu efficace
-  pour le moment, à cause de la mise en page.
+- La transformation du support de cours en présentation n'est pas bonne pour le
+  moment, à cause de la mise en page.
 - L'inverse serait sans doute plus efficace (générer le support de cours à
   partir de la présentation).
-- Je continue à expérimenter et à affiner mon flux de travail.
+- Je continue à expérimenter et à affiner mon flux de travail, notamment en
+  guidant les suggestions avec des fichiers d'instructions.
 
 ![bg right:34%][illustration-principale]
 
@@ -245,8 +272,8 @@ _Let's get our hands dirty!_
 
 - J'essaie de trouver le bon équilibre entre automatisation et contrôle de la
   qualité.
-- J'essaie de faire en sorte que le contenu reste pertinent, précis et adapté
-  aux besoins des étudiant.es.
+- Difficile à suivre les tendances et les nouveautés.
+- Difficile de tout générer (qualité, pertinence, skill issues, etc.).
 - Crainte de la perte de l'esprit critique et de la créativité dans
   l'utilisation d'outils d'IA...
 
