@@ -563,10 +563,10 @@ présentés dans cette présentation (à différents degrés de maturité) :
 <!-- URLs -->
 
 [contenu-complet-sur-github]:
-	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md
+	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/README.md
 
 <!-- [contenu-complet-sur-github-qr-code]:
-	https://quickchart.io/qr?format=png&ecLevel=Q&size=400&margin=1&text=https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md -->
+	https://quickchart.io/qr?format=png&ecLevel=Q&size=400&margin=1&text=https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/README.md -->
 
 [license]:
 	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/LICENSE.md
