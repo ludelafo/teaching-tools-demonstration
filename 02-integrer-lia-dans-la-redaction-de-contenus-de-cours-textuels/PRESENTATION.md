@@ -72,7 +72,7 @@ Delafontaine**
 - 2011-2015 : CFC en informatique @ ETML.
 - 2015-2019 : BSc en informatique @ HEIG-VD.
 - 2020-2024 : Collaborateur Ra&D @ HEIG-VD.
-- 2023-2026 : Artios + Chargé de cours @ HEIG-VD.
+- 2023-2026 : Artios + Enseignement @ HEIG-VD.
 
 **Enseignement**
 
@@ -123,7 +123,7 @@ Delafontaine**
 
 - Tous mes contenus de cours sont rédigés en
   [Markdown](https://fr.wikipedia.org/wiki/Markdown) (supports + présentations -
-  [voir l'exemple]()).
+  [voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/tree/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-exemple/README.md)).
 - Permet de créer des documents structurés en utilisant une syntaxe simple et
   lisible (PDF, HTML, etc.).
 - Permet de se concentrer sur le contenu plutôt que la forme.
@@ -133,7 +133,8 @@ Delafontaine**
 ## Comment je crée mes contenus de cours (2)
 
 - Les diagrammes sont rédigés avec [PlantUML](https://plantuml.com/)
-  ([voir l'exemple]()), eux-aussi décrits avec du texte.
+  ([voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-exemple/images/diagramme-plantuml.plantuml)),
+  eux-aussi décrits avec du texte.
 - Les fichiers textuels sont faciles à lire et à comprendre.
 - De plus, ils sont légers, faciles à versionner et à collaborer.
 
@@ -151,8 +152,8 @@ Delafontaine**
 
 ## La force des contenus textuels
 
-Comme tous mes contenus sont textuels (facile à lire/comprendre) et que je n'ai
-pas besoin de mise en forme complexe, je peux utiliser des outils d'IA pour
+Comme tous mes contenus sont textuels (facile à lire et à comprendre) et que je
+n'ai pas besoin de mise en forme complexe, je peux utiliser des outils d'IA pour
 m'aider à les rédiger plus rapidement et efficacement.
 
 Avoir une source de vérité textuelle me permet de facilement intégrer des outils
@@ -180,9 +181,8 @@ résultats (base de l'IA).
 - Au travers de la HEIG-VD, l'accès à GitHub Copilot est offert.
 - Plusieurs modèles disponibles gratuitement (j'utilise souvent Claude Sonnet
   4.5).
-- Comme tous les documents sont des fichiers textuels, il n'y a aucune
-  difficulté à les comprendre et les mettre à jour (pas de mise en page à gérer
-  !).
+- Comme tous les documents sont des fichiers textuels, il a aucune difficulté à
+  les comprendre et les mettre à jour (peu de mise en page à gérer !).
 
 ![bg right:40%][illustration-principale]
 
@@ -210,7 +210,7 @@ _Let's get our hands dirty!_
 
 <!-- _class: lead -->
 
-### Conclusion personnelle (1)
+### Conclusion (1)
 
 - L'intégration de l'IA dans la rédaction de contenus de cours textuels est
   prometteuse.
@@ -220,29 +220,39 @@ _Let's get our hands dirty!_
 
 ![bg right:34%][illustration-principale]
 
-### Conclusion personnelle (2)
+### Conclusion (2)
 
 - GitHub Copilot n'est pas parfait et nécessite une supervision humaine.
-- Mes expériences de génération de contenu avec Copilot sont mitigées (skill
-  issues?) :
+- Mes expériences de génération de contenus complets avec le chat intégré sont
+  mitigées (skill issues?) :
   - Parfois, les générations sont très pertinentes et m'aident à avancer
     rapidement.
   - Parfois, je dois me battre pour obtenir des résultats satisfaisants.
 
 ![bg right:34%][illustration-principale]
 
-### Craintes personnelles
+### Conclusion (3)
+
+- La transformation du support de cours en présentation est très peu efficace
+  pour le moment, à cause de la mise en page.
+- L'inverse serait sans doute plus efficace (générer le support de cours à
+  partir de la présentation).
+- Je continue à expérimenter et à affiner mon flux de travail.
+
+![bg right:34%][illustration-principale]
+
+### Conclusion personnelle
 
 - J'essaie de trouver le bon équilibre entre automatisation et contrôle de la
   qualité.
 - J'essaie de faire en sorte que le contenu reste pertinent, précis et adapté
   aux besoins des étudiant.es.
 - Crainte de la perte de l'esprit critique et de la créativité dans
-  l'utilisation d'outils d'IA... Tout n'est pas à prendre.
+  l'utilisation d'outils d'IA...
 
-![bg right:34%][illustration-principale]
+![bg right:40%][illustration-principale]
 
-### Perspectives d'avenir
+### Perspectives d'avenir (1)
 
 - Explorer davantage les capacités de GitHub Copilot avec les agents
   d'intelligence artificielle :
@@ -250,8 +260,15 @@ _Let's get our hands dirty!_
   - Demander à générer un contenu spécifique complet (support de cours,
     présentation, diagrammes, etc.).
   - Automatiser encore plus la création et la maintenance des documents.
+- Tester la restructuration d'un cours complet.
+- Tester d'autres outils d'IA et comparer les résultats.
+
+### Perspectives d'avenir (2)
+
+- Rédaction d'un guide/document sur l'utilisation de l'IA dans la création de
+  contenus de cours textuels et les conclusions.
 - Aides et discussions autour de cette thématique avec d'autres enseignant.es
-  (comment garder cet esprit critique et créatif ?)
+  (comment garder cet esprit critique et créatif ?).
 
 ## Questions
 
@@ -270,9 +287,10 @@ Merci de votre attention ! Est-ce que vous avez des questions ?
 
 <!-- URLs -->
 
-<!-- [contenu-complet-sur-github]:
+[contenu-complet-sur-github]:
 	https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md
-[contenu-complet-sur-github-qr-code]:
+
+<!-- [contenu-complet-sur-github-qr-code]:
 	https://quickchart.io/qr?format=png&ecLevel=Q&size=400&margin=1&text=https://github.com/ludelafo/teaching-tools-demonstration/blob/main/demonstration/README.md -->
 
 [license]:

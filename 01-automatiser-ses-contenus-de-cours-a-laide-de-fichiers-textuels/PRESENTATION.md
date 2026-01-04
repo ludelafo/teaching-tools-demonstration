@@ -72,7 +72,7 @@ Delafontaine**
 - 2011-2015 : CFC en informatique @ ETML.
 - 2015-2019 : BSc en informatique @ HEIG-VD.
 - 2020-2024 : Collaborateur Ra&D @ HEIG-VD.
-- 2023-2026 : Artios + Chargé de cours @ HEIG-VD.
+- 2023-2026 : Artios + Enseignement @ HEIG-VD.
 
 **Enseignement**
 
@@ -234,7 +234,7 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 
 **Grands choix de formats**
 
-- [Markdown](https://www.markdownguide.org/).
+- [Markdown](https://fr.wikipedia.org/wiki/Markdown).
 - [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 - [AsciiDoc](https://asciidoc.org/).
 - [LaTeX](https://www.latex-project.org/).
@@ -246,8 +246,8 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 
 ### Markdown
 
-- [Markdown](https://www.markdownguide.org/) permet de créer des documents
-  structurés.
+- [Markdown](https://fr.wikipedia.org/wiki/Markdown) permet de créer des
+  documents structurés.
 - Syntaxe simple
   ([voir l'exemple](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/01-exemple/README.md)).
 - Peut être utilisé pour générer différents types de documents (supports et
@@ -422,14 +422,15 @@ _Let's get our hands dirty!_
   temps, n'importe où.
 - Cette approche permet à tout le monde de pouvoir apprendre à son rythme et
   selon ses besoins, même lors d'absences.
-- Les retours des étudiant.es sont (extrêmement) positifs.
+- Tout est au même endroit.
+- Les retours sont (extrêmement) positifs.
 
 ![bg right:34%][illustration-principale]
 
 ### Conclusion personnelle (3)
 
-- La simplicité des outils me force à rester simple et bien structurer le
-  contenu.
+- **La simplicité des outils me force à rester simple et bien structurer le
+  contenu.**
 - Après avoir créé 5 cours à partir de 0 en 2.5 ans, je suis convaincu par cette
   approche.
 - Plusieurs personnes impliquées dans le processus de réflexion et la mise en
@@ -471,6 +472,40 @@ Merci de votre attention ! Est-ce que vous avez des questions ?
 ## Diapositives supplémentaires
 
 <!-- _class: lead -->
+
+### Alternatives aux outils présentés (1)
+
+**Marp**
+
+- [Slidev](https://sli.dev/) - Pas le souhait de gérer une application web.
+- [Reveal.js](https://revealjs.com/) - Écriture en HTML trop verbeuse.
+- [Beamer](https://ctan.org/pkg/beamer) (LaTeX) - Trop complexe pour mes
+  besoins.
+- [Pandoc](https://pandoc.org/) avec des templates spécifiques - Difficile à
+  trouver quelque chose d'esthétique.
+- [Pleins d'autres encore...](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
+
+### Alternatives aux outils présentés (2)
+
+**PlantUML**
+
+- [Mermaid](https://mermaid-js.github.io/mermaid/#/) - Intégration avec GitHub
+  excellente, mais syntaxe et types de diagrammes qui ne me conviennent pas.
+- [Kroki](https://kroki.io/) - Supporte plusieurs langages de description de
+  diagrammes, mais PlantUML était amplement suffisant.
+
+### Alternatives aux outils présentés (3)
+
+**GitHub / GitHub Pages**
+
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - Permet
+  de créer des sites web documentaires statiques à partir de fichiers Markdown.
+  S'intègre parfaitement avec GitHub Pages. Je ne l'ai pas utilisé car je
+  voulais profiter de présenter et utiliser toutes les fonctionnalités offertes
+  par GitHub. Un outil pour tout gérer, c'est plus efficace.
+
+À nouveau, la simplicité des outils me force à rester simple et bien structurer
+le contenu.
 
 ### Exemples de cours que j'ai créés
 

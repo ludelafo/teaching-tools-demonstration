@@ -19,7 +19,9 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 >
 > À l'issue de ce contenu, les personnes devraient être capables de :
 >
-> - TODO
+> - Présenter des outils pour générer et maintenir des contenus de cours
+>   textuels à l'aide de l'intelligence artificielle.
+> - Expliquer pourquoi le choix de ces outils.
 >
 > **Méthodes d'enseignement et d'apprentissage**
 >
