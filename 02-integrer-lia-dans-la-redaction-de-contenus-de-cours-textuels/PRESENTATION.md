@@ -112,7 +112,7 @@ Delafontaine**
 ## Avertissement (2)
 
 - Cette présentation fait suite à un précédent contenu que j'ai rédigé intitulé
-  [_"Automatiser ses contenus de cours à l'aide de fichiers textuels"_](TODO).
+  _"[Automatiser ses contenus de cours à l'aide de fichiers textuels](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/README.md)"_.
 - Dans ce contenu, je présentais les outils que j'utilise pour créer des
   supports de cours et des présentations pour mes cours à partir de simples
   fichiers textuels Markdown.
@@ -181,8 +181,8 @@ résultats (base de l'IA).
 - Au travers de la HEIG-VD, l'accès à GitHub Copilot est offert.
 - Plusieurs modèles disponibles gratuitement (j'utilise souvent Claude Sonnet
   4.5).
-- Comme tous les documents sont des fichiers textuels, il a aucune difficulté à
-  les comprendre et les mettre à jour (peu de mise en page à gérer !).
+- Comme tous les documents sont des fichiers textuels, il n'a aucune difficulté
+  à les comprendre et les mettre à jour (peu de mise en page à gérer !).
 
 ![bg right:40%][illustration-principale]
 
