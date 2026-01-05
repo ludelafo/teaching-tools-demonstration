@@ -203,8 +203,8 @@ résultats (base de l'IA).
 
 _Let's get our hands dirty!_
 
-<small>Il n'est pas impossible que l'effet démo soit présent. Navré pour les
-éventuelles erreurs.</small>
+<small>Il est possible que l'effet démo soit présent. Navré pour les éventuelles
+erreurs.</small>
 
 ### Contenus de la démonstration
 
@@ -270,9 +270,8 @@ _Let's get our hands dirty!_
 
 ### Conclusion personnelle
 
-- J'essaie de trouver le bon équilibre entre automatisation et contrôle de la
-  qualité.
-- Difficile à suivre les tendances et les nouveautés.
+- J'essaie de trouver le bon équilibre entre automatisation et qualité.
+- Difficile de suivre les tendances et les nouveautés.
 - Difficile de tout générer (qualité, pertinence, skill issues, etc.).
 - Crainte de la perte de l'esprit critique et de la créativité dans
   l'utilisation d'outils d'IA...

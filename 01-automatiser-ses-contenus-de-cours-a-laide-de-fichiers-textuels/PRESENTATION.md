@@ -378,8 +378,8 @@ Tous connus et utilisés, mais pas très efficaces pour mes besoins.
 
 _Let's get our hands dirty!_
 
-<small>Il n'est pas impossible que l'effet démo soit présent. Navré pour les
-éventuelles erreurs.</small>
+<small>Il est possible que l'effet démo soit présent. Navré pour les éventuelles
+erreurs.</small>
 
 ## Conclusion
 
