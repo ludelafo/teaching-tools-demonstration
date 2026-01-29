@@ -381,6 +381,29 @@ _Let's get our hands dirty!_
 <small>Il est possible que l'effet démo soit présent. Navré pour les éventuelles
 erreurs.</small>
 
+### Contenus de la démonstration
+
+<div class="two-columns">
+<div>
+
+1. Présenter l'environnement de développement (Visual Studio Code +
+   Devcontainer).
+2. Présenter les formats de fichiers utilisés.
+3. Présenter le flux de travail _"Issues"_ -> _"Branches"_ -> _"PRs"_ ->
+   _"Reviews"_ -> _"Merges"_.
+
+</div>
+<div>
+
+4. Présenter le fichier
+   [`.github/workflows/main.yml`](https://github.com/ludelafo/teaching-tools-demonstration/blob/main/.github/workflows/main.yml).
+5. Générer un support de cours complet à partir de fichiers Markdown et
+   PlantUML.
+6. Présenter le résultat final (support de cours et présentation générés).
+
+</div>
+</div>
+
 ## Conclusion
 
 <!-- _class: lead -->

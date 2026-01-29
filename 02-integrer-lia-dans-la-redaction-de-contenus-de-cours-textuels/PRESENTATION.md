@@ -179,10 +179,11 @@ résultats (base de l'IA).
 ### GitHub Copilot (2)
 
 - Au travers de la HEIG-VD, l'accès à GitHub Copilot est offert.
-- Plusieurs modèles disponibles gratuitement (j'utilise souvent Claude Sonnet
-  4.5).
-- Comme tous les documents sont des fichiers textuels, il n'a aucune difficulté
-  à les comprendre et les mettre à jour (peu de mise en page à gérer !).
+- Plusieurs modèles disponibles gratuitement (j'utilise souvent Claude
+  Sonnet/Opus 4.5).
+- Comme tous les documents sont des fichiers textuels, il n'y a aucune
+  difficulté à les comprendre et les mettre à jour (peu de mise en page à gérer
+  !).
 
 ![bg right:40%][illustration-principale]
 
@@ -227,7 +228,6 @@ erreurs.</small>
 8. Utiliser le dossier
    [`instructions`](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-path-specific-custom-instructions-1)
    pour guider les suggestions sur des fichiers spécifiques.
-9. Générer des diagrammes PlantUML.
 
 </div>
 </div>
@@ -238,7 +238,7 @@ erreurs.</small>
 
 ### Conclusion (1)
 
-- L'intégration de l'IA dans la rédaction de contenus de cours textuels est
+- L'intégration de l'IA dans la rédaction de contenus de cours textuels semble
   prometteuse.
 - GitHub Copilot m'aide à accélérer la création et la maintenance de mes
   documents.
@@ -252,8 +252,7 @@ erreurs.</small>
 - Mes expériences de génération de contenus complets avec le chat intégré sont
   mitigées (skill issues?) :
   - Parfois, les générations sont très pertinentes et permettent un gain.
-  - Parfois, je dois me battre pour obtenir de bons résultats. Plus simple de
-    faire par soi-même.
+  - Parfois, il est plus simple de faire par soi-même.
 
 ![bg right:34%][illustration-principale]
 
@@ -263,8 +262,7 @@ erreurs.</small>
   moment, à cause de la mise en page.
 - L'inverse serait sans doute plus efficace (générer le support de cours à
   partir de la présentation).
-- Je continue à expérimenter et à affiner mon flux de travail, notamment en
-  guidant les suggestions avec des fichiers d'instructions.
+- Je continue à expérimenter et à affiner mon flux de travail.
 
 ![bg right:34%][illustration-principale]
 
@@ -291,6 +289,11 @@ erreurs.</small>
 
 ### Perspectives d'avenir (2)
 
+- Intégration d'un
+  _"[Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)"_ +
+  Chatbot pour permettre d'interroger mes contenus de cours existants.
+- Intégration de l'IA dans d'autres aspects de l'enseignement (évaluation,
+  feedback, etc.).
 - Rédaction d'un guide/document sur l'utilisation de l'IA dans la création de
   contenus de cours textuels et les conclusions.
 - Aides et discussions autour de cette thématique avec d'autres enseignant.es
