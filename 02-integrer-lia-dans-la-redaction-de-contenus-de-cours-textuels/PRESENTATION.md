@@ -1,13 +1,14 @@
 ---
 marp: true
-theme: custom-marp-theme
+theme: "custom-marp-theme"
 size: 16:9
 paginate: true
-author: L. Delafontaine, avec l'aide de GitHub Copilot
+author: "L. Delafontaine, avec l'aide de GitHub Copilot"
 description:
-  Intégrer l'intelligence artificielle dans la rédaction de contenus de cours
-  rédigés avec des fichiers textuels complets textuels
-url: https://ludelafo.github.io/teaching-tools-demonstration/02-integrer-lia-dans-la-redaction-de-contenus-de-cours-textuels/presentation.html
+  "Intégrer l'intelligence artificielle dans la rédaction de contenus de cours
+  rédigés avec des fichiers textuels complets textuels"
+lang: "fr"
+url: "https://ludelafo.github.io/teaching-tools-demonstration/02-integrer-lia-dans-la-redaction-de-contenus-de-cours-textuels/presentation.html"
 header:
   "[**Intégrer l'IA dans la rédaction de contenus de cours
   textuels**][contenu-complet-sur-github]"

@@ -1,13 +1,14 @@
 ---
 marp: true
-theme: custom-marp-theme
+theme: "custom-marp-theme"
 size: 16:9
 paginate: true
-author: L. Delafontaine, avec l'aide de GitHub Copilot
+author: "L. Delafontaine, avec l'aide de GitHub Copilot"
 description:
-  Automatiser la création et la maintenance de contenus de cours complets à
-  l'aide de simples fichiers textuels.
-url: https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/presentation.html
+  "Automatiser la création et la maintenance de contenus de cours complets à
+  l'aide de simples fichiers textuels."
+lang: "fr"
+url: "https://ludelafo.github.io/teaching-tools-demonstration/01-automatiser-ses-contenus-de-cours-a-laide-de-fichiers-textuels/presentation.html"
 header:
   "[**Automatiser ses contenus de cours à l'aide de fichiers
   textuels**][contenu-complet-sur-github]"
@@ -177,7 +178,8 @@ cette présentation.
 - Présenter quelques diapositives supplémentaires si le temps le permet.
 
 \
-**Sentez-vous libre de poser des questions à tout moment durant la présentation !**
+**Sentez-vous libre de poser des questions à tout moment durant la présentation
+!**
 
 ![bg right:40%][illustration-objectifs]
 
